@@ -1,0 +1,80 @@
+consciousness_network = {
+    "ACC": [
+        ("CG_L_7_2 (24rv)"),
+        ("CG_R_7_2 (24rv)"),
+        ("CG_L_7_3 (32p)"),
+        ("CG_R_7_3 (32p)"),
+        ("CG_L_7_5 (24cd)"),
+        ("CG_R_7_5 (24cd)"),
+        ("CG_L_7_7 (32sg)"),
+        ("CG_R_7_7 (32sg)"),
+    ],
+    "dlPFC": [
+        ("SFG_L_7_2 (8dl)"),
+        ("SFG_R_7_2 (8dl)"),
+        ("SFG_L_7_3 (9l)"),
+        ("SFG_R_7_3 (9l)"),
+        ("MFG_L_7_1 (9/46d)"),
+        ("MFG_R_7_1 (9/46d)"),
+        ("MFG_L_7_3 (46)"),
+        ("MFG_R_7_3 (46)"),
+        ("MFG_L_7_4 (9/46v)"),
+        ("MFG_R_7_4 (9/46v)"),
+    ],
+    "dmPFC": [
+        ("SFG_L_7_6 (9m)"),
+        ("SFG_R_7_6 (9m)"),
+        ("SFG_L_7_7 (10m)"),
+        ("SFG_R_7_7 (10m)"),
+    ],
+    "lOFC": [
+        ("OrG_L_6_2 (12/47o)"),
+        ("OrG_R_6_2 (12/47o)"),
+        ("OrG_L_6_6 (12/47l)"),
+        ("OrG_R_6_6 (12/47l)"),
+    ],
+    "mOFC": [
+        ("OrG_L_6_4 (11m)"),
+        ("OrG_R_6_4 (11m)"),
+    ],
+    "vlPFC": [
+        ("MFG_L_7_5 (8vl)"),
+        ("MFG_R_7_5 (8vl)"),
+        ("MFG_L_7_6 (6vl)"),
+        ("MFG_R_7_6 (6vl)"),
+        ("IFG_L_6_2 (IFS)"),
+        ("IFG_R_6_2 (IFS)"),
+        ("IFG_L_6_3 (45c)"),
+        ("IFG_R_6_3 (45c)"),
+        ("IFG_L_6_4 (45r)"),
+        ("IFG_R_6_4 (45r)"),
+    ],
+    "vmPFC": [
+        ("CG_L_7_6 (23c)"),
+        ("CG_R_7_6 (23c)"),
+        ("OrG_L_6_3 (11l)"),
+        ("OrG_R_6_3 (11l)"),
+        ("OrG_L_6_5 (13)"),
+        ("OrG_R_6_5 (13)"),
+    ],
+    "PPC": [  # Newly added posterior parietal cortex regions
+        # Superior Parietal Lobule (SPL)
+        "SPL_L_5_1 (7r)", "SPL_R_5_1 (7r)",
+        "SPL_L_5_2 (7c)", "SPL_R_5_2 (7c)",
+        "SPL_L_5_3 (5l)", "SPL_R_5_3 (5l)",
+        "SPL_L_5_4 (7pc)", "SPL_R_5_4 (7pc)",
+        "SPL_L_5_5 (7ip)", "SPL_R_5_5 (7ip)",
+        # Inferior Parietal Lobule (IPL)
+        "IPL_L_6_1 (39c)", "IPL_R_6_1 (39c)",
+        "IPL_L_6_2 (39rd)", "IPL_R_6_2 (39rd)",
+        "IPL_L_6_3 (40rd)", "IPL_R_6_3 (40rd)",
+        "IPL_L_6_4 (40c)", "IPL_R_6_4 (40c)",
+        "IPL_L_6_5 (39rv)", "IPL_R_6_5 (39rv)",
+        "IPL_L_6_6 (40rv)", "IPL_R_6_6 (40rv)",
+        # Precuneus (PCun)
+        "PCun_L_4_1 (7m)", "PCun_R_4_1 (7m)",
+        "PCun_L_4_2 (5m)", "PCun_R_4_2 (5m)",
+        "PCun_L_4_3 (dmPOS)", "PCun_R_4_3 (dmPOS)",
+        "PCun_L_4_4 (31)", "PCun_R_4_4 (31)"
+    ]
+}

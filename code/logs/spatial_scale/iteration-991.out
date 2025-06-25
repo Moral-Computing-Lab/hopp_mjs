@@ -1,0 +1,130 @@
+Running job on: markov
+Iteration: 991
+Starting spatial evaluation...
+/home/fhopp/.conda/envs/mjs/lib/python3.8/site-packages/nilearn/maskers/nifti_masker.py:110: UserWarning: imgs are being resampled to the mask_img resolution. This process is memory intensive. You might want to provide a target_affine that is equal to the affine of the imgs or resample the mask beforehand to save memory and computation time.
+  warnings.warn(
+/home/fhopp/.conda/envs/mjs/lib/python3.8/site-packages/nilearn/masking.py:980: UserWarning: Data array used to create a new image contains 64-bit ints. This is likely due to creating the array with numpy and passing `int` as the `dtype`. Many tools such as FSL and SPM cannot deal with int64 in Nifti images, so for compatibility the data has been converted to int32.
+  return new_img_like(mask_img, unmasked, affine)
+Network 0 - Visual: 50 voxels done Correlation: 0.6505291684024028
+Network 0 - Visual: 150 voxels done Correlation: 0.5475980647686691
+Network 0 - Visual: 250 voxels done Correlation: 0.593576589824978
+Network 0 - Visual: 500 voxels done Correlation: 0.5539146091028961
+Network 0 - Visual: 750 voxels done Correlation: 0.6415242955987608
+Network 0 - Visual: 1000 voxels done Correlation: 0.5898070857107491
+Network 0 - Visual: 1500 voxels done Correlation: 0.619911149793666
+Network 0 - Visual: 3000 voxels done Correlation: 0.6302999215121101
+Network 0 - Visual: 5000 voxels done Correlation: 0.6173317416988645
+Network 0 - Visual: 6500 voxels done Correlation: 0.6132392382572829
+Network 0 - Visual: 10000 voxels done Correlation: 0.6280246578673614
+Network 0 - Visual: 15000 voxels done Correlation: 0.6284719381831338
+/home/fhopp/.conda/envs/mjs/lib/python3.8/site-packages/nilearn/masking.py:980: UserWarning: Data array used to create a new image contains 64-bit ints. This is likely due to creating the array with numpy and passing `int` as the `dtype`. Many tools such as FSL and SPM cannot deal with int64 in Nifti images, so for compatibility the data has been converted to int32.
+  return new_img_like(mask_img, unmasked, affine)
+Network 1 - Somatomotor: 50 voxels done Correlation: 0.20101732848947323
+Network 1 - Somatomotor: 150 voxels done Correlation: 0.2508212476357682
+Network 1 - Somatomotor: 250 voxels done Correlation: 0.3026693440317515
+Network 1 - Somatomotor: 500 voxels done Correlation: 0.33408230190547406
+Network 1 - Somatomotor: 750 voxels done Correlation: 0.3381539436428952
+Network 1 - Somatomotor: 1000 voxels done Correlation: 0.3504735034577602
+Network 1 - Somatomotor: 1500 voxels done Correlation: 0.3473863262099489
+Network 1 - Somatomotor: 3000 voxels done Correlation: 0.3539970370849795
+Network 1 - Somatomotor: 5000 voxels done Correlation: 0.3362903582384925
+Network 1 - Somatomotor: 6500 voxels done Correlation: 0.35746223578348263
+Network 1 - Somatomotor: 10000 voxels done Correlation: 0.3399732023902688
+Network 1 - Somatomotor: 15000 voxels done Correlation: 0.34367887973763445
+/home/fhopp/.conda/envs/mjs/lib/python3.8/site-packages/nilearn/masking.py:980: UserWarning: Data array used to create a new image contains 64-bit ints. This is likely due to creating the array with numpy and passing `int` as the `dtype`. Many tools such as FSL and SPM cannot deal with int64 in Nifti images, so for compatibility the data has been converted to int32.
+  return new_img_like(mask_img, unmasked, affine)
+Network 2 - dAttention: 50 voxels done Correlation: 0.3306792360950498
+Network 2 - dAttention: 150 voxels done Correlation: 0.27430895226181934
+Network 2 - dAttention: 250 voxels done Correlation: 0.2412408390857108
+Network 2 - dAttention: 500 voxels done Correlation: 0.32295539061247996
+Network 2 - dAttention: 750 voxels done Correlation: 0.38717070893343086
+Network 2 - dAttention: 1000 voxels done Correlation: 0.3174291760800634
+Network 2 - dAttention: 1500 voxels done Correlation: 0.3483936720483568
+Network 2 - dAttention: 3000 voxels done Correlation: 0.31597586068843214
+Network 2 - dAttention: 5000 voxels done Correlation: 0.3411935245106772
+Network 2 - dAttention: 6500 voxels done Correlation: 0.3253585305544826
+Network 2 - dAttention: 10000 voxels done Correlation: 0.3304102039937347
+Network 2 - dAttention: 15000 voxels done Correlation: 0.33457036380233984
+/home/fhopp/.conda/envs/mjs/lib/python3.8/site-packages/nilearn/masking.py:980: UserWarning: Data array used to create a new image contains 64-bit ints. This is likely due to creating the array with numpy and passing `int` as the `dtype`. Many tools such as FSL and SPM cannot deal with int64 in Nifti images, so for compatibility the data has been converted to int32.
+  return new_img_like(mask_img, unmasked, affine)
+Network 3 - vAttention: 50 voxels done Correlation: 0.1551120122844751
+Network 3 - vAttention: 150 voxels done Correlation: 0.20459783341016846
+Network 3 - vAttention: 250 voxels done Correlation: 0.38390730980573085
+Network 3 - vAttention: 500 voxels done Correlation: 0.3436034470875275
+Network 3 - vAttention: 750 voxels done Correlation: 0.36947030099954903
+Network 3 - vAttention: 1000 voxels done Correlation: 0.3404747180804788
+Network 3 - vAttention: 1500 voxels done Correlation: 0.38018242239591016
+Network 3 - vAttention: 3000 voxels done Correlation: 0.3615032605006922
+Network 3 - vAttention: 5000 voxels done Correlation: 0.3691956388684181
+Network 3 - vAttention: 6500 voxels done Correlation: 0.37608405139250667
+Network 3 - vAttention: 10000 voxels done Correlation: 0.38327795702963785
+Network 3 - vAttention: 15000 voxels done Correlation: 0.38790497280256364
+/home/fhopp/.conda/envs/mjs/lib/python3.8/site-packages/nilearn/masking.py:980: UserWarning: Data array used to create a new image contains 64-bit ints. This is likely due to creating the array with numpy and passing `int` as the `dtype`. Many tools such as FSL and SPM cannot deal with int64 in Nifti images, so for compatibility the data has been converted to int32.
+  return new_img_like(mask_img, unmasked, affine)
+Network 4 - Limbic: 50 voxels done Correlation: 0.10357979396356662
+Network 4 - Limbic: 150 voxels done Correlation: 0.20376652528638797
+Network 4 - Limbic: 250 voxels done Correlation: 0.31511936891010206
+Network 4 - Limbic: 500 voxels done Correlation: 0.28106602486940296
+Network 4 - Limbic: 750 voxels done Correlation: 0.2467898714212489
+Network 4 - Limbic: 1000 voxels done Correlation: 0.2517302563453724
+Network 4 - Limbic: 1500 voxels done Correlation: 0.2575764453332786
+Network 4 - Limbic: 3000 voxels done Correlation: 0.2682641883121694
+Network 4 - Limbic: 5000 voxels done Correlation: 0.2968882435221778
+Network 4 - Limbic: 6500 voxels done Correlation: 0.28691590070093603
+Network 4 - Limbic: 10000 voxels done Correlation: 0.2883656910044977
+/home/fhopp/.conda/envs/mjs/lib/python3.8/site-packages/nilearn/masking.py:980: UserWarning: Data array used to create a new image contains 64-bit ints. This is likely due to creating the array with numpy and passing `int` as the `dtype`. Many tools such as FSL and SPM cannot deal with int64 in Nifti images, so for compatibility the data has been converted to int32.
+  return new_img_like(mask_img, unmasked, affine)
+Network 5 - Frontoparietal: 50 voxels done Correlation: 0.16789417930477182
+Network 5 - Frontoparietal: 150 voxels done Correlation: 0.06601452528490695
+Network 5 - Frontoparietal: 250 voxels done Correlation: 0.17187737976105777
+Network 5 - Frontoparietal: 500 voxels done Correlation: 0.2360793672097085
+Network 5 - Frontoparietal: 750 voxels done Correlation: 0.22355446597068676
+Network 5 - Frontoparietal: 1000 voxels done Correlation: 0.22543453252302864
+Network 5 - Frontoparietal: 1500 voxels done Correlation: 0.2215037621726053
+Network 5 - Frontoparietal: 3000 voxels done Correlation: 0.21550176243540448
+Network 5 - Frontoparietal: 5000 voxels done Correlation: 0.2321059443554534
+Network 5 - Frontoparietal: 6500 voxels done Correlation: 0.24056141525982921
+Network 5 - Frontoparietal: 10000 voxels done Correlation: 0.23521768524002015
+Network 5 - Frontoparietal: 15000 voxels done Correlation: 0.23836757725222038
+/home/fhopp/.conda/envs/mjs/lib/python3.8/site-packages/nilearn/masking.py:980: UserWarning: Data array used to create a new image contains 64-bit ints. This is likely due to creating the array with numpy and passing `int` as the `dtype`. Many tools such as FSL and SPM cannot deal with int64 in Nifti images, so for compatibility the data has been converted to int32.
+  return new_img_like(mask_img, unmasked, affine)
+Network 6 - Default Mode: 50 voxels done Correlation: 0.2810018120187213
+Network 6 - Default Mode: 150 voxels done Correlation: 0.32620265184463393
+Network 6 - Default Mode: 250 voxels done Correlation: 0.353765787570855
+Network 6 - Default Mode: 500 voxels done Correlation: 0.261085895993337
+Network 6 - Default Mode: 750 voxels done Correlation: 0.30265234763293514
+Network 6 - Default Mode: 1000 voxels done Correlation: 0.37811203671455446
+Network 6 - Default Mode: 1500 voxels done Correlation: 0.3346757937467736
+Network 6 - Default Mode: 3000 voxels done Correlation: 0.4026424495566293
+Network 6 - Default Mode: 5000 voxels done Correlation: 0.37263422385966827
+Network 6 - Default Mode: 6500 voxels done Correlation: 0.40282970480542757
+Network 6 - Default Mode: 10000 voxels done Correlation: 0.40607382806037456
+Network 6 - Default Mode: 15000 voxels done Correlation: 0.4018489926159464
+Network 6 - Default Mode: 25000 voxels done Correlation: 0.41004542215801176
+/home/fhopp/.conda/envs/mjs/lib/python3.8/site-packages/nilearn/masking.py:980: UserWarning: Data array used to create a new image contains 64-bit ints. This is likely due to creating the array with numpy and passing `int` as the `dtype`. Many tools such as FSL and SPM cannot deal with int64 in Nifti images, so for compatibility the data has been converted to int32.
+  return new_img_like(mask_img, unmasked, affine)
+Network 7 - Subcortical: 50 voxels done Correlation: 0.19110456138898146
+Network 7 - Subcortical: 150 voxels done Correlation: 0.24943863103693792
+Network 7 - Subcortical: 250 voxels done Correlation: 0.19876458036013203
+Network 7 - Subcortical: 500 voxels done Correlation: 0.19978160423850794
+Network 7 - Subcortical: 750 voxels done Correlation: 0.2622608377115448
+Network 7 - Subcortical: 1000 voxels done Correlation: 0.2502076698622774
+Network 7 - Subcortical: 1500 voxels done Correlation: 0.2298490734215144
+Network 7 - Subcortical: 3000 voxels done Correlation: 0.1499781939273352
+Network 7 - Subcortical: 5000 voxels done Correlation: 0.16676779273966705
+Network 7 - Subcortical: 6500 voxels done Correlation: 0.14699547026173476
+Network 7 - Subcortical: 10000 voxels done Correlation: 0.16638294005354526
+Network 8 - Consciousness: 50 voxels done Correlation: 0.33964770418126855
+Network 8 - Consciousness: 150 voxels done Correlation: 0.3295113255809179
+Network 8 - Consciousness: 250 voxels done Correlation: 0.3333295605741865
+Network 8 - Consciousness: 500 voxels done Correlation: 0.31459054893846466
+Network 8 - Consciousness: 750 voxels done Correlation: 0.3701402847126222
+Network 8 - Consciousness: 1000 voxels done Correlation: 0.41616096744908854
+Network 8 - Consciousness: 1500 voxels done Correlation: 0.4592009966661095
+Network 8 - Consciousness: 3000 voxels done Correlation: 0.4227239044112481
+Network 8 - Consciousness: 5000 voxels done Correlation: 0.4388679879282295
+Network 8 - Consciousness: 6500 voxels done Correlation: 0.4654324469266922
+Network 8 - Consciousness: 10000 voxels done Correlation: 0.4662222947544794
+Network 8 - Consciousness: 15000 voxels done Correlation: 0.45784143930062315
+Network 8 - Consciousness: 25000 voxels done Correlation: 0.4736191532019214
+Network 8 - Consciousness: 50000 voxels done Correlation: 0.4666839038807299

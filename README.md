@@ -1,1 +1,69 @@
-# hopp_mjs
+# Moral Judgment Signature 
+
+Code accompanying the paper: A sensitive and specific neural signature robustly predicts graded computations of moral wrongness
+Authors: Frederic R. Hopp, Sungbin Youk, Walter Sinnott-Armstrong, & René Weber
+
+Correspondence should be addressed to René Weber (renew@comm.ucsb.edu)
+
+## Contents: 
+
+### code:
+    - bootstrap:
+        1. bootstrap_mjs.py for running the bootstrap prediction
+
+    - eval_spatial_scale:
+        1. spatial_scale.py for sampling increasing number of voxels across networks for model predictions
+
+    - glm:
+        1. 01_glm_common.py GLM analysis for obtaining beta maps per wrongness rating (1-4)
+        2. 02_glm_conditions.py GLM analysis for obtaining condition-wise beta maps for each wrongness rating 
+        3. 03_glm_trial.py LSA GLM analysis for obtaining beta maps for each vignette item
+        4. 04_glm_parametric.py GLM analysis with wrongness ratings as parametric modulator 
+        5. 05_glm_smid.py GLM analysis for obtaining beta maps per morality rating (1-5)
+        6. 06_glm_intention_condition.py GLM analysis for obtaining beta maps for intentional vs. accidental harm scenarios
+
+    - matlab:
+        - Note: requires CanLabCore tools (https://github.com/canlab/CanlabCore)
+        - create_moral_atlas.m code generates a brain atlas based on pre-defined moral ROIs (see roi_masks)
+        - load_patterns_thr.m loads neural signatures for riverplots 
+        - mediation_analysis.m runs the multi-level mediation analysis 
+        - model_encode.m creates the model encoding maps (structure coefficients)
+        - plot_brain.m code used to generate visualiatzions of statistical brain maps
+        - plot_riverplot_miniature.m creates the inlays below the riverplots
+        - plot_riverplot_networks.m creates riverplots for brain networks 
+        - plot_riverplot_rois. creates riverplots for individual ROIs 
+
+    - misc:
+        1. bna_create_rois.py mappings of parcels -> ROIs for Fan Brainnetome atlas
+        2. run_slurm.sh generic script for distributing code across SLURM cluster
+
+    - notebooks:
+        1. 01_behavior.ipynb analyses of behavioral data across studies 1­-4.
+        2. 02_train_eval_mjs.ipynb training and evaluation of MJS across studies 1-4.
+        3. 03_bootstrap_mjs.ipynb thresholding of MJS bootstrap map (see bootstrap/boostrap_mjs.py for running the bootstrap prediction)
+        4. 04_validate_mjs_vignettes.ipynb peristimulus plots, trial-wise prediction across MJS, PINES, and VIDS, out-of-sample correlations 
+        5. 05_cross_decoding.ipynb documents the PLS-R analyses.
+        6. 06_forward_backward.ipynb for the univariate parametric t-test, within-subject classifiers, and model-encoding maps thresholding.
+        7. 07_alternative_models.ipynb searchlights, parcellation, and network-based predictions. 
+        8. 08_sensitivity.ipynb functional comparison of MJS, PINES, and VIDS.
+
+    - peristimulus
+        1. peristimulus_study.py applies the MJS to the TRs of each trial via dot-product.
+
+### external data 
+    - ToDo!
+### masks:
+    - roi_masks contain the ROI masks for riverplots
+    - talairach_atlas is used to create the mask for the occipital lobe (occ_talairach_nii.gz)
+    - Fan* are the Brainnetome atlases (networks and ROIs)
+    - moral_uniformity is the "moral" map from Neurosynth
+
+### weightmaps:
+    - external contains the PINES and VIDS biomarkers (signatures) for prediction analyses and riverplots (retaining positive values only _POS)
+    - mjs:
+    1. mjs_full.nii.gz is the unthresholded MJS neural signature (pattern)
+    2. mjs_bootstrap_thresh_n10000.nii.gz is the thresholded MJS pattern after 10k bootstrap iterations (predictions)
+    3. mjs_no_occ_weights.nii.gz is the MJS without the occipital lobe
+    4. mjs_ns_mask.nii.gz is the MJS trained only on voxels identified via the Neurosynth "moral" mask (see moral_uniformity in masks)
+
+
