@@ -1,6 +1,6 @@
 # Moral Judgment Signature 
 
-Code accompanying the paper: A sensitive and specific neural signature robustly predicts graded computations of moral wrongness
+Code accompanying the paper: A sensitive and specific neural signature robustly predicts graded computations of moral wrongness  
 Authors: Frederic R. Hopp, Sungbin Youk, Walter Sinnott-Armstrong, & René Weber
 
 Correspondence should be addressed to René Weber (renew@comm.ucsb.edu)
@@ -50,20 +50,8 @@ Correspondence should be addressed to René Weber (renew@comm.ucsb.edu)
     - peristimulus
         1. peristimulus_study.py applies the MJS to the TRs of each trial via dot-product.
 
-### external data 
-    - ToDo!
 ### masks:
     - roi_masks contain the ROI masks for riverplots
     - talairach_atlas is used to create the mask for the occipital lobe (occ_talairach_nii.gz)
     - Fan* are the Brainnetome atlases (networks and ROIs)
     - moral_uniformity is the "moral" map from Neurosynth
-
-### weightmaps:
-    - external contains the PINES and VIDS biomarkers (signatures) for prediction analyses and riverplots (retaining positive values only _POS)
-    - mjs:
-    1. mjs_full.nii.gz is the unthresholded MJS neural signature (pattern)
-    2. mjs_bootstrap_thresh_n10000.nii.gz is the thresholded MJS pattern after 10k bootstrap iterations (predictions)
-    3. mjs_no_occ_weights.nii.gz is the MJS without the occipital lobe
-    4. mjs_ns_mask.nii.gz is the MJS trained only on voxels identified via the Neurosynth "moral" mask (see moral_uniformity in masks)
-
-
