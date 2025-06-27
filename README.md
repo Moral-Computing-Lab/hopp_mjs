@@ -1,6 +1,7 @@
 # Moral Judgment Signature 
 
 Code accompanying the paper: A sensitive and specific neural signature robustly predicts graded computations of moral wrongness  
+
 Authors: Frederic R. Hopp, Sungbin Youk, Walter Sinnott-Armstrong, & René Weber
 
 Correspondence should be addressed to René Weber (renew@comm.ucsb.edu)
