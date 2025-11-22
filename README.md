@@ -56,3 +56,13 @@ Correspondence should be addressed to René Weber (renew@comm.ucsb.edu)
     - talairach_atlas is used to create the mask for the occipital lobe (occ_talairach_nii.gz)
     - Fan* are the Brainnetome atlases (networks and ROIs)
     - moral_uniformity is the "moral" map from Neurosynth
+
+## Dependencies
+
+The above code was tested and executed using:
+- Python (version 3.11.12) and the nltools package (v.0.5.1), in an Anaconda environment.
+- MATLAB www.mathworks.com (R2024a)
+- CANLab Core tools CANlab CanlabCore and Neuroimaging_Pattern_Masks repositories (https://github.com/canlab)
+
+## Data availability
+fMRI data used to train and validate the signature are available at https://figshare.com/articles/dataset/Discovery_dataset_mjs/29423726?file=55720082 (study 1); https://figshare.com/articles/dataset/Validation_dataset_mjs/29423789?file=55721972 (study 2), https://figshare.com/articles/dataset/Replication_dataset_mjs/29423966?file=55724255 (study 3), and https://figshare.com/articles/dataset/Generalization_dataset_mjs/29423981?file=55724291 (study 4). The data of study 5 are from a previous study (https://doi.org/10.1371/journal.pbio.1002180) and are available at https://neurovault.org/collections/1964. The data of study 6 are from a previous study (https://doi.org/10.1038/s41562-024-01868-x) and are available at https://figshare.com/articles/dataset/validation_dataset_disgust/22841117. The data of study 7 are from a previous study (https://doi.org/10.1073/pnas.1207992110) and are available at https://openneuro.org/datasets/ds000212/versions/1.0.0. The data of the visual scenes moral judgment paradigms are available at  https://figshare.com/articles/dataset/Visualscenes1_dataset_mjs/29424164?file=55725344 (study 8) and at https://figshare.com/articles/dataset/Visualscenes2_dataset_mjs/29424176?file=55725368 (study 9). The data from the ultimatum game (study 10) were provided by the authors of a previous study (https://doi.org/10.1038/s42003-025-07561-7). The moral judgment signature and the thresholded statistical maps are available via figshare at https://figshare.com/articles/dataset/Brain_models_and_maps/29424206?file=55725515
