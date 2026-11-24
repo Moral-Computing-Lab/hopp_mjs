@@ -51,6 +51,9 @@ Correspondence should be addressed to René Weber (renew@comm.ucsb.edu)
     - peristimulus
         1. peristimulus_study.py applies the MJS to the TRs of each trial via dot-product.
 
+    - r&r
+        - r&r.ipynb analyses requested during the revise & resubmit.
+
 ### masks:
     - roi_masks contain the ROI masks for riverplots
     - talairach_atlas is used to create the mask for the occipital lobe (occ_talairach_nii.gz)
