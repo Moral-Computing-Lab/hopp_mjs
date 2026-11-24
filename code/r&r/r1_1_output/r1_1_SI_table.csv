@@ -1,0 +1,33 @@
+Analysis,Measure,Discovery,Validation,Replication,Generalization
+Sample,Participants / vignettes,64 / 120,30 / 72,27 / 120,30 / 120
+Sample,Trials,7301,2095,3159,3517
+Variance partitioning of ratings (η²),Vignette (%),44.3,59.5,41.5,52.9
+Variance partitioning of ratings (η²),Participant (%),14.2,5.9,8.5,10.2
+Variance partitioning of ratings (η²),"Vignette + participant, additive (%)",58.3,65.4,49.8,63.0
+Variance partitioning of ratings (η²),Residual: participant × vignette + noise (%),41.7,34.6,50.2,37.0
+Within-subject MJS–rating correlation,"Raw r, mean (s.d.)",0.44 (0.15),0.34 (0.11),0.17 (0.12),0.22 (0.14)
+Within-subject MJS–rating correlation,"Partial r | LOSO consensus, mean (s.d.)",0.33 (0.13),0.22 (0.13),0.10 (0.10),0.15 (0.12)
+Within-subject MJS–rating correlation,   t (df),18.51 (63),8.96 (29),5.11 (26),6.59 (29)
+Within-subject MJS–rating correlation,"   p, t-test",3.6e-27,7.5e-10,2.5e-05,3.2e-07
+Within-subject MJS–rating correlation,"   p, bootstrap",≤ 0.0001,≤ 0.0001,≤ 0.0001,≤ 0.0001
+Within-subject MJS–rating correlation,   participants r > 0 / p < .05 & r > 0,64 / 53 of 64,29 / 12 of 30,22 / 5 of 27,27 / 13 of 30
+Within-subject MJS–rating correlation,"Partial r | population norms, mean (s.d.)",0.35 (0.14),0.24 (0.15),0.11 (0.10),0.15 (0.13)
+Within-subject MJS–rating correlation,   t (df),18.25 (63),8.87 (29),5.58 (26),6.61 (29)
+Within-subject MJS–rating correlation,"   p, t-test",7.6e-27,9.2e-10,7.3e-06,3.0e-07
+Within-subject MJS–rating correlation,"   p, bootstrap",≤ 0.0001,≤ 0.0001,≤ 0.0001,≤ 0.0001
+Two-way fixed effects: rating ~ MJS + participant + vignette,b (rating points per s.d. MJS),0.242,0.141,0.068,0.097
+Two-way fixed effects: rating ~ MJS + participant + vignette,   s.e. (clustered by participant),0.013,0.017,0.013,0.015
+Two-way fixed effects: rating ~ MJS + participant + vignette,   z,18.92,8.16,5.18,6.47
+Two-way fixed effects: rating ~ MJS + participant + vignette,   p,7.7e-80,3.3e-16,2.2e-07,9.7e-11
+Two-way fixed effects: rating ~ MJS + participant + vignette,ΔR² beyond participant + vignette (%),4.59,1.53,0.41,0.77
+"Within-vignette, across-participant correlation",Vignettes analysed,120,71,119,119
+"Within-vignette, across-participant correlation","r, Fisher-z mean",0.29,0.19,0.09,0.14
+"Within-vignette, across-participant correlation",   t (df),22.45 (119),6.73 (70),4.65 (118),7.57 (118)
+"Within-vignette, across-participant correlation","   p, permutation",≤ 0.001,≤ 0.001,≤ 0.001,≤ 0.001
+"Within-vignette, across-participant correlation",   vignettes r > 0,119 of 120,54 of 71,81 of 119,94 of 119
+Mixed model: MJS ~ consensus + person-specific deviation,Consensus β (s.e.),0.221 (0.012),0.231 (0.020),0.123 (0.018),0.121 (0.021)
+Mixed model: MJS ~ consensus + person-specific deviation,   p,5.8e-80,9.6e-31,4.0e-12,9.7e-09
+Mixed model: MJS ~ consensus + person-specific deviation,Person-specific deviation β (s.e.),0.260 (0.018),0.195 (0.026),0.098 (0.021),0.118 (0.023)
+Mixed model: MJS ~ consensus + person-specific deviation,   p,2.6e-47,1.6e-13,3.4e-06,3.4e-07
+Between-participant: mean rating vs mean MJS,r (df),0.18 (62),0.36 (28),-0.07 (25),0.23 (28)
+Between-participant: mean rating vs mean MJS,   p,0.163,0.049,0.717,0.218
